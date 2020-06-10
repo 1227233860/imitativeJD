@@ -1,0 +1,53 @@
+
+.content {
+	background-color: #f6f6f6;
+}
+.header {
+	position: relative;
+}
+.banner-bg {
+	width: 100%;
+}
+.header-container {
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+.search-bar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.input-area {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	        flex-grow: 1;
+	background-color: white;
+	border-radius: 10000rpx;
+	height: 48rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 4rpx 24rpx;
+}
+.jd-logo {
+	height: 28rpx;
+	width: 28rpx;
+}
+.icon-category {
+	font-size: 48rpx;
+}
+.login-btn, .icon-category {
+	color: white;
+	padding: 22rpx;
+}
+.swiper-container {
+	margin: 0 22rpx;
+}
+
