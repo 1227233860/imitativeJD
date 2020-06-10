@@ -1,7 +1,7 @@
 <template>
 	<view class="content">
 		<view class="header">
-			<image class="banner-bg" src="../../static/banner-bg.jpg"></image>
+			<image class="banner-bg" src="../../static/images/banner-bg.jpg"></image>
 			<view class="header-container">
 				<view class="search-bar">
 					<icon class="iconfont icon-category"></icon>
@@ -26,11 +26,11 @@
 		data() {
 			return {
 				swiperDataSource: [{
-					image: '/static/index-banner1.jpg'
+					image: '/static/images/index-banner1.jpg'
 				}, {
-					image: '/static/index-banner2.jpg'
+					image: '/static/images/index-banner2.jpg'
 				}, {
-					image: '/static/index-banner3.jpg'
+					image: '/static/images/index-banner3.jpg'
 				}]
 			}
 		},
