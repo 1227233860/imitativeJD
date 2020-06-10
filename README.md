@@ -13,7 +13,7 @@ imitative jd.com(Wechat mini apps) use uniapp+vuejs
 
 All static resources used in the project are from the jd.com, it's for leaning and communication. If you use anything in others, please ask resource owner!
 
-本项目使用到的所有静态资源均来自[京东商城](https://jd.com)，旨在学习与交流。若您用于他用，请先征求资源所有者的同意！
+本项目使用到的所有静态资源均来自[京东商城](https://jd.com)以及[阿里图标库](https://iconfont.cn)，旨在学习与交流。若您用于他用，请先征求资源所有者的同意！
 
 ## Digression（题外话）
 

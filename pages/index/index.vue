@@ -7,7 +7,9 @@
 					<icon class="iconfont icon-category"></icon>
 					<view class="input-area">
 						<image class="jd-logo" src="../../static/images/jd-logo.png"></image>
-						<u-input placeholder="怡宝矿泉水"></u-input>
+						<u-line direction="col"/>
+						<u-icon class="icon-search" name="search"></u-icon>
+						<u-input placeholder="怡宝矿泉水" :customStyle="{fontSize: '20rpx'}" placeholderStyle="color: #aaa"></u-input>
 					</view>
 					<text class="login-btn">登录</text>
 				</view>
@@ -70,8 +72,16 @@
 		padding: 4rpx 24rpx;
 	}
 	.jd-logo {
-		height: 28rpx;
-		width: 28rpx;
+		height: 26rpx;
+		width: 32rpx;
+	}
+	u-line {
+		height: 80%;
+		padding: 0 16rpx;
+	}
+	.icon-search {
+		color: #ccc;
+		padding-right: 12rpx;
 	}
 	.icon-category {
 		font-size: 48rpx;
