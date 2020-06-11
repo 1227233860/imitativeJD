@@ -31,27 +31,36 @@
 		}
 	],
 	"tabBar": {
+		"selectedColor": "#f10001",
 		"list": [{
 			"pagePath": "pages/index/index",
-			"text": "首页"
+			"text": "首页",
+			"selectedIconPath": "static/images/tab-index-selected.png",
+			"iconPath": "static/images/tab-index.png"
 		}, {
 			"pagePath": "pages/category/category",
-			"text": "分类"
+			"text": "分类",
+			"selectedIconPath": "static/images/tab-category-selected.png",
+			"iconPath": "static/images/tab-category.png"
 		}, {
 			"pagePath": "pages/home/home",
-			"text": "京喜"
+			"text": "京喜",
+			"iconPath": "static/images/tab-home.png"
 		}, {
 			"pagePath": "pages/cart/cart",
-			"text": "购物车"
+			"text": "购物车",
+			"selectedIconPath": "static/images/tab-cart-selected.png",
+			"iconPath": "static/images/tab-cart.png"
 		}, {
 			"pagePath": "pages/login/login",
-			"text": "未登录"
+			"text": "未登录",
+			"iconPath": "static/images/tab-login.png"
 		}]
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#a50136",
+		"navigationBarBackgroundColor": "#d80003",
 		"backgroundColor": "#F8F8F8"
 	}
 }

@@ -12,7 +12,7 @@
 				<text class="login-btn">登录</text>
 			</view>
 			<view class="swiper-container">
-				<u-swiper :list="swiperDataSource"></u-swiper>
+				<u-swiper :list="swiperDataSource" mode="rect"></u-swiper>
 			</view>
 		</view>
 		<view>
@@ -73,6 +73,43 @@
 					<text class="more-seckill">更多秒杀</text>
 					<image class="more-seckill-icon" src="../../static/images/more-seckill.png"></image>
 				</view>
+				<view class="seckill-goods">
+					<view class="goods">
+						<image src="../../static/images/seckill-goods1.jpg"></image>
+						<text>11468</text>
+						<text>14499</text>
+					</view>
+					<view class="goods">
+						<image src="../../static/images/seckill-goods2.jpg"></image>
+						<text>2999</text>
+						<text>4088</text>
+					</view>
+					<view class="goods">
+						<image src="../../static/images/seckill-goods3.jpg"></image>
+						<text>19.8</text>
+						<text>50</text>
+					</view>
+					<view class="goods">
+						<image src="../../static/images/seckill-goods4.jpg"></image>
+						<text>9.9</text>
+						<text>19.8</text>
+					</view>
+					<view class="goods">
+						<image src="../../static/images/seckill-goods5.jpg"></image>
+						<text>449</text>
+						<text>599</text>
+					</view>
+					<view class="goods">
+						<image src="../../static/images/seckill-goods6.jpg"></image>
+						<text>8958</text>
+						<text>9499</text>
+					</view>
+					<view class="goods">
+						<image src="../../static/images/seckill-goods7.jpg"></image>
+						<text>2968</text>
+						<text>3399</text>
+					</view>
+				</view>
 			</view>
 		</view>
 	</view>
@@ -91,9 +128,7 @@
 				}]
 			}
 		},
-		onLoad() {
-
-		},
+		onLoad() {},
 		methods: {
 
 		}
